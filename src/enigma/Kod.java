@@ -31,8 +31,6 @@ public class Kod {
 			in2=in2+"A";
 		}
 		StringBuilder out2 = new StringBuilder();
-
-		
 		for (int i = 1, len = in2.length(); i < len; i++) {
 			
 			int ch = in2.charAt(i);
