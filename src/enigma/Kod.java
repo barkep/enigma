@@ -6,7 +6,7 @@ public class Kod {
 
 		Alfabet alf = new Alfabet(Alfabet.ALL);
 		Cipher test = new Cipher();
-		String in = "ABC XYZ1231534654d213saf1saf vwF";
+		String in = "asdsadfsaf";
 		test.setAlfabet(alf);
 		String out = test.ecnrypt(in);
 		System.out.println("Tekst szyfrowany: " + in);
